@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package protobuf;
+
+message Person {
+    string name = 1;
+    int32 age = 2;
+    repeated string addresses = 3;
+}
