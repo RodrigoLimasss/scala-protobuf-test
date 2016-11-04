@@ -34,7 +34,8 @@ object Common{
       Classpaths.sbtPluginReleases,
       "Eclipse repositories" at "https://repo.eclipse.org/service/local/repositories/egit-releases/content/",
       "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots",
-      "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases")
+      "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases",
+      "The New Motion Public Repo" at "http://nexus.thenewmotion.com/content/groups/public/")
   )
 
 }

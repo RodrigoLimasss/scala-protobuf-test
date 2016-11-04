@@ -13,7 +13,7 @@ object Build extends Build {
     base = file("builder")
   ).settings(Common.settings: _*)
     .settings(mainClass in Compile := Some("Main"))
-    .settings(libraryDependencies ++= Dependencies.streamingDependencies)
+    .settings(libraryDependencies ++= Dependencies.dependencies)
     .settings(
       PB.targets in Compile := Seq(
         scalapb.gen() -> (sourceManaged in Compile).value
